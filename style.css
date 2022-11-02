@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+#rt_logo {
+    width: fit-content;
+    height: auto;
+    display: block;
+    margin: auto;
+    opacity: 0%;
+    animation-name: op_change;
+    animation-duration: 2500ms;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes op_change {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
